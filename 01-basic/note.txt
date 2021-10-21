@@ -1,0 +1,58 @@
+#Database dersinin amaçı => databasenin nasıl çalıştığını anlamak  
+
+# Verilerimizi saklamak
+
+
+#neden database tercih ediyoruz
+ - Hız
+ - Güven
+
+# RDMS (Relational Database Management System)
+  - Oracle     (BİZ) 
+  - MYSQL
+  - PostgreSQL
+  - MSSQL      - Microsoft SQL Server
+  - Sqlite 
+
+# NOSQL (NoSQL)
+  - MongoDB
+  - CouchDB
+  - Redis
+  - ElasticSearch
+
+# Yeni Database yazmak istersek kullanılan dil C, C++
+# Database 
+    - tables
+    - views 
+    - functions 
+
+# database kullanımı  (CRUD)
+    - insert
+    - update
+    - delete
+    - select
+
+# database'nin kendi dili SQL'dir 
+    - SQL (Structured Query Language)
+    select * from ogrenciler;
+    select email, link from ogrenciler;
+
+egitim (database)
+ogrenciler(table)
+ad      soyad       yas 
+------  --------   -----
+Tekin   POLAT       29
+Yiğit   ERSÖZ       23
+Yiğit   KARAKAYA    23
+
+
+# data type 
+    int      4 
+    year     1998
+    float   18.37
+    varchar (string , 255)   "Ali "
+    text    (uzun string) 
+    datetime  (tarih)   
+
+
+
