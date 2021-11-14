@@ -11,14 +11,16 @@
    - PRIMARY KEY (ana anahtar)
    - FOREIGN KEY (yabancı anahtar)
 
+```
 CREATE TABLE users (
     user_id INTEGER PRIMARY KEY AUTOINCREMENT,
     name VARCHAR(50) NOT NULL,
     surname VARCHAR(70),
     email VARCHAR(100) UNIQUE,
     year YEAR1 CHECK(year < 2011),
-    description TEXT DEFAULT 'işlem',
+    description TEXT DEFAULT 'işlem'
 )
+```
 
 
 #SQL 
